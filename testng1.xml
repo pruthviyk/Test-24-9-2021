@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng1.org/testng1-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.pruthvi.Arisb2.TestNG02"/>
+      <class name="com.pruthvi.Arisb2.Ts01"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
