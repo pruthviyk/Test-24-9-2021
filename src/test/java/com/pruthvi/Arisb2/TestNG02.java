@@ -2,6 +2,9 @@ package com.pruthvi.Arisb2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 public class TestNG02 {
 
@@ -11,7 +14,7 @@ public WebDriver myD;
 	public void TS001() throws InterruptedException
 	{
 		System.out.println("Opening Browser");
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\SARAVANAN R\\Desktop\\ArisGlobalB2\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\00005321\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		myD=new ChromeDriver();
 		myD.get("https://www.google.com/");
 		String vTitle=myD.getTitle();
